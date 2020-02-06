@@ -1,5 +1,5 @@
 import re
-import os
+# import os
 import random
 
 # how to resolve path-problem?
@@ -7,5 +7,5 @@ file = open("C:\\Users\\stank\\PycharmProjects\\CodePuzzles\\Programming_Challen
 text = ''.join(file.readlines())
 sentences = re.split(r' *[\.\?!][\'"\)\]]* *', text)
 
-print(os.getcwd())
+# print(os.getcwd())
 print(random.choice(sentences) + ".")
