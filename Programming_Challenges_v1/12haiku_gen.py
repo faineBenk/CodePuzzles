@@ -6,9 +6,9 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
 # Improve this: string should be read from .txt
-original_str = 'Ratz was tending bar, his  prosthetic  arm  jerking monotonously  as he filled a tray of glasses with '\
+original_str = 'Ratz was tending bar, his prosthetic  arm  jerking monotonously  as he filled a tray of glasses with '\
                'draft Kirin. He saw Case and smiled, his teeth a web work of East European steel and brown decay. ' \
-               'Case found a place at the bar, between the unlikely tan  on one of Lonny  Zone\'s whores and  the ' \
+               'Case found a place at the bar, between the unlikely tan  on one of Lonny  Zone`s whores and  the ' \
                'crisp  naval uniform  of a  tall African whose  cheekbones were ridged  with precise rows of  tribal ' \
                'scars. '
 vowels = "aeiouy"
