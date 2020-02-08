@@ -39,18 +39,12 @@ for w in word_tokens:
 
 # print("String filtered with NLTK module and punctuation marks:", filtered_sentence)
 
-# Improve this to 1 string
-wordIndex1 = random.randint(0, len(filtered_sentence) - 1)
-wordIndex2 = random.randint(0, len(filtered_sentence) - 1)
-wordIndex3 = random.randint(0, len(filtered_sentence) - 1)
-wordIndex4 = random.randint(0, len(filtered_sentence) - 1)
-wordIndex5 = random.randint(0, len(filtered_sentence) - 1)
-wordIndex6 = random.randint(0, len(filtered_sentence) - 1)
-wordIndex7 = random.randint(0, len(filtered_sentence) - 1)
-
-haiku = "\n" + filtered_sentence[wordIndex1] + " " + filtered_sentence[wordIndex2] + "\n"
-haiku = haiku + filtered_sentence[wordIndex3] + " " + filtered_sentence[wordIndex4] + " " + filtered_sentence[
-    wordIndex5] + "\n"
-haiku = haiku + filtered_sentence[wordIndex6] + " " + filtered_sentence[wordIndex7] + "."
+haiku = "\n" + filtered_sentence[random.randint(0, len(filtered_sentence) - 1)] + " "\
+        + filtered_sentence[random.randint(0, len(filtered_sentence) - 1)] + "\n" \
+        + filtered_sentence[random.randint(0, len(filtered_sentence) - 1)] + " " + \
+        filtered_sentence[random.randint(0, len(filtered_sentence) - 1)] + " " \
+        + filtered_sentence[random.randint(0, len(filtered_sentence) - 1)] + "\n" \
+        + filtered_sentence[random.randint(0, len(filtered_sentence) - 1)] + " " +\
+        filtered_sentence[random.randint(0, len(filtered_sentence) - 1)] + "."
 
 print(haiku)
