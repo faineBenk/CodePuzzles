@@ -2,7 +2,6 @@
 # This import can be used to count syllabes in words later
 
 import random
-
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
