@@ -37,7 +37,6 @@ for w in word_tokens:
     if w not in stop_words and w not in punct_marks:
         filtered_sentence.append(w)
 
-# print(word_tokens)
 # print("String filtered with NLTK module and punctuation marks:", filtered_sentence)
 
 # Improve this to 1 string
